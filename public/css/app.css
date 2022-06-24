@@ -1,6 +1,7 @@
 body {
   height: 100vh;
-  background-image: linear-gradient(to bottom right, rgb(111, 23, 23), black);
+  background-image: url("/images/bg.jpg");
+  background-position: center;
 }
 
 .card {
