@@ -1,4 +1,6 @@
-body {
-  background-color: antiquewhite;
+.card {
+  width: calc((100% - 100px) / 5);
+  height: 300px;
+  margin: 10px;
 }
 
