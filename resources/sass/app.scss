@@ -1,12 +1,32 @@
 
 body{
-  height: 100vh;
-  background-image: url('/images/bg.jpg');
-  background-position: center;
+  height: calc(100vh - 56px);
+  
 }
 
 .card{
   width: calc((100% - 100px) /5);
   height: 300px;
   margin: 10px;
+}
+
+.container-100h{
+  height: 100%;
+}
+
+.container-movie{
+  background-image: url('/images/bg.jpg');
+  background-position: center;
+}
+
+.container-home{
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.container-about{
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.container-contacts{
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }

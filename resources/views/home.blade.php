@@ -3,6 +3,9 @@
 
 @section('content')
 
-  <h1>HOME</h1>
+  <div class="container-home container-100h">
+    <h1>HOME</h1>
+
+  </div>
 
 @endsection

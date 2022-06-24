@@ -3,6 +3,7 @@
 
 @section('content')
 
+<div class="container-movie container-100h">
   <div class="container d-flex flex-wrap">
 
     @foreach($movies as $movie)
@@ -37,5 +38,6 @@
     @endforeach
 
  </div> 
+</div>
 
 @endsection
